@@ -1,4 +1,5 @@
-cd ~/Downloads/geniuslocker_nextjs-2
-git add vercel.json
-git commit -m "richtige JSON-Datei für Vercel"
-git push
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "out",
+  "framework": "nextjs"
+}
